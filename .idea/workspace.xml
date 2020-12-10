@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a81d820a-43ef-43ad-ab42-e47ccb4e7d69" name="Default Changelist" comment="Get request created">
+    <list default="true" id="a81d820a-43ef-43ad-ab42-e47ccb4e7d69" name="Default Changelist" comment="Add get single product, category">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/products.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +45,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="file.status.colors" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -58,7 +58,7 @@
       <updated>1607457207618</updated>
       <workItem from="1607457209123" duration="1691000" />
       <workItem from="1607460292614" duration="1649000" />
-      <workItem from="1607562523972" duration="8987000" />
+      <workItem from="1607562523972" duration="12790000" />
     </task>
     <task id="LOCAL-00001" summary="Start backend">
       <created>1607457989969</created>
@@ -74,7 +74,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607568481090</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add get single product, category">
+      <created>1607596921390</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607596921390</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,6 +103,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="100000" />
     <MESSAGE value="Start backend" />
     <MESSAGE value="Get request created" />
-    <option name="LAST_COMMIT_MESSAGE" value="Get request created" />
+    <MESSAGE value="Add get single product, category" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add get single product, category" />
   </component>
 </project>

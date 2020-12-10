@@ -6,12 +6,17 @@ const cors = require('cors');
 const app = express();
 
 // Добавление маршрутов
-const productsRoute = require('./routes/products');
-const usersRoute = require('./routes/users');
+const usersRouter = require('./routes/users');
+const productsRouter = require('./routes/products');
+
+const orderRouter = require('./routes/order');
+
 
 // Использование маршрутов
-app.use('/api/products', productsRoute);
-app.use('/api/users', usersRoute);
+app.use('/api/users', usersRouter);
+app.use('/api/products', productsRouter);
+
+app.use('/api/orders', orderRouter);
 
 
 app.use(cors({
