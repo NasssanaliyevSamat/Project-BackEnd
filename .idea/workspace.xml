@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a81d820a-43ef-43ad-ab42-e47ccb4e7d69" name="Default Changelist" comment="Add get single product, category">
+    <list default="true" id="a81d820a-43ef-43ad-ab42-e47ccb4e7d69" name="Default Changelist" comment="add get all orders, single order and forgotten helper.js">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/order.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/order.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +59,7 @@
       <updated>1607457207618</updated>
       <workItem from="1607457209123" duration="1691000" />
       <workItem from="1607460292614" duration="1649000" />
-      <workItem from="1607562523972" duration="12790000" />
+      <workItem from="1607562523972" duration="20266000" />
     </task>
     <task id="LOCAL-00001" summary="Start backend">
       <created>1607457989969</created>
@@ -81,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607596921390</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add get all orders, single order and forgotten helper.js">
+      <created>1607600772957</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607600772957</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,6 +112,7 @@
     <MESSAGE value="Start backend" />
     <MESSAGE value="Get request created" />
     <MESSAGE value="Add get single product, category" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add get single product, category" />
+    <MESSAGE value="add get all orders, single order and forgotten helper.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="add get all orders, single order and forgotten helper.js" />
   </component>
 </project>

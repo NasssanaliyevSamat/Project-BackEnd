@@ -5,18 +5,10 @@ const logger = require('morgan');
 const cors = require('cors');
 const app = express();
 
-// Добавление маршрутов
-const usersRouter = require('./routes/users');
-const productsRouter = require('./routes/products');
-
-const orderRouter = require('./routes/order');
 
 
-// Использование маршрутов
-app.use('/api/users', usersRouter);
-app.use('/api/products', productsRouter);
 
-app.use('/api/orders', orderRouter);
+
 
 
 app.use(cors({
@@ -31,7 +23,13 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-// app.use('/', indexRouter);
-// app.use('/users', usersRouter);
+// Добавление маршрутов
+const usersRouter = require('./routes/users');
+const productsRouter = require('./routes/products');
+const orderRouter = require('./routes/order');
+// Использование маршрутов
+app.use('/api/users', usersRouter);
+app.use('/api/products', productsRouter);
+app.use('/api/orders', orderRouter);
 
 module.exports = app;
