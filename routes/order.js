@@ -86,13 +86,15 @@ router.post('/new', async (req, res) =>{
                            .filter({id: p.id})
                            .withFields(['quantity'])
                            .get();
-                       let inCount = parseInt(p.inCount);
+                       let inCart = parseInt(p.incart);
+                       console.log(data.quantity);
+                       console.log(p.incart);
 
                        // Вычитаем количество заказанных из количества имеющихся продуктов в базе данных
 
                        if (data.quantity > 0)
                        {
-                            data.quantity = data.quantity - inCount;
+                            data.quantity = data.quantity - inCart;
 
                             if ( data.quantity < 0 )
                             {
@@ -108,7 +110,7 @@ router.post('/new', async (req, res) =>{
                            .insert({
                                order_id: newOrderId,
                                product_id: p.id,
-                               quantity: inCount
+                               quantity: inCart
                            })
                            .then(newId => { // Вычитание количества товара
                                database.table('products')
@@ -141,5 +143,10 @@ router.post('/new', async (req, res) =>{
         res.json({message: 'Fail create new order', success: false});
     }
 });
-
+/* Payment */
+router.post('/payment', (req, res) => {
+    setTimeout(() => {
+        res.status(200).json({success: true});
+    }, 3000)
+});
 module.exports = router;

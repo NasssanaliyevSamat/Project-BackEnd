@@ -127,4 +127,6 @@ router.get('/category/:catName', (req, res) => { // Sending Page Query Parameter
 
 });
 
+
+
 module.exports = router;
